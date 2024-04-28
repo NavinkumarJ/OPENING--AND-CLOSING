@@ -24,7 +24,7 @@ import matplotlib.pyplot as plt
 ```python
 img1=np.zeros((100,400), dtype='uint8')
 font=cv2.FONT_HERSHEY_SIMPLEX
-cv2.putText(img1,'AIscientist',(5,70), font,2,(255),5,cv2.LINE_AA)
+cv2.putText(img1,'Greedy',(5,70), font,2,(255),5,cv2.LINE_AA)
 ```
 # Create the structuring element
 ```python
@@ -45,10 +45,13 @@ plt.axis("off")
 ```
 ## Output:
 ### Display the input Image
+![Output1](https://github.com/SanthoshUthiraKumar/OPENING--AND-CLOSING/assets/119477975/bb76105b-2010-4314-b6fa-fd2833b4f148)
 
 ### Display the result of Opening
+![Output2](https://github.com/SanthoshUthiraKumar/OPENING--AND-CLOSING/assets/119477975/61613e9a-670b-45a1-bbc2-961e6c9fe115)
 
 ### Display the result of Closing
+![Output3](https://github.com/SanthoshUthiraKumar/OPENING--AND-CLOSING/assets/119477975/2a74a628-6565-4598-b2c0-4f4f96499553)
 
 ## Result
 Thus the Opening and Closing operation is used in the image using python and OpenCV.
